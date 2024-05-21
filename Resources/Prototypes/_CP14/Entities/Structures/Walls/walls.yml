@@ -46,6 +46,34 @@
     base: stonebricks
 
 - type: entity
+  id: CP14WallBricks
+  name: brick wall
+  parent: CP14BaseWall
+  description: Ужасы
+  components:
+  - type: Sprite
+    sprite: _CP14/Structures/Walls/bricks_wall.rsi
+  - type: Icon
+    sprite: _CP14/Structures/Walls/bricks_wall.rsi
+    state: full
+  - type: IconSmooth
+    base: bricks
+
+- type: entity
+  id: CP14WallWhiteStonebrick
+  name: white stone brick wall
+  parent: CP14BaseWall
+  description: Ужасы
+  components:
+  - type: Sprite
+    sprite: _CP14/Structures/Walls/whitebricks_stone_wall.rsi
+  - type: Icon
+    sprite: _CP14/Structures/Walls/whitebricks_stone_wall.rsi
+    state: full
+  - type: IconSmooth
+    base: stonebricks
+
+- type: entity
   id: CP14WindowDebug #TODO remove
   name: debug window
   suffix: DEBUG
@@ -80,7 +108,7 @@
     base: stone_bricks_window
 
 - type: entity
-  id: CP14CardboardWall
+  id: CP14WallCardboard
   name: cardboard Wall
   description: A thin, flimsy wall made of paper and cardboard. Popular in warm countries.
   parent: 
@@ -126,3 +154,17 @@
   - type: FireVisuals
     sprite: _CP14/Effects/fire.rsi
     normalState: full
+
+- type: entity
+  id: CP14WallWooden
+  name: wooden Wall
+  description: A thin, flimsy wall made of paper and cardboard. Popular in warm countries.
+  parent: 
+  - CP14WallCardboard
+  - CP14BaseWooden
+  components:
+  - type: Sprite
+    sprite: _CP14/Structures/Walls/wooden_walls.rsi
+  - type: Icon
+    sprite: _CP14/Structures/Walls/wooden_walls.rsi
+    state: full
