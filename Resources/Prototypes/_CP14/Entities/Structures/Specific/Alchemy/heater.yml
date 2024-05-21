@@ -30,7 +30,7 @@
       Flammable: [ Touch ]
       Extinguish: [ Touch ]
   - type: Flammable
-    fireSpread: true
+    fireSpread: false
     canResistFire: false
     alwaysCombustible: true
     canExtinguish: true
@@ -129,3 +129,6 @@
   - type: Storage
     grid:
     - 0,0,2,2
+    whitelist:
+      tags:
+      - CP14FireplaceFuel
