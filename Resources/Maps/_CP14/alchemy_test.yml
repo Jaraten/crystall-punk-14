@@ -36,6 +36,9 @@ entities:
     - type: OccluderTree
     - type: LoadedMap
     - type: MapLight
+    - type: CP14CloudShadows
+    - type: CP14WorldEdge
+      range: 30
     - type: CP14DayCycle
       timeEntries:
       - duration: 80
@@ -63,7 +66,6 @@ entities:
     - type: MetaData
       name: grid
     - type: Transform
-      pos: -0.5168724,-0.47751108
       parent: 1
     - type: BecomesStation
       id: AlchemyTest
