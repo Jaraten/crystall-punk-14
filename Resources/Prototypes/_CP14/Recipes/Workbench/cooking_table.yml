@@ -30,3 +30,24 @@
     CP14FoodDoughMedium: 1 
   result: CP14FoodDoughMediumFlat
   tryMergeSolutions: true
+
+- type: CP14Recipe
+  id: CP14SeedPumpkin
+  craftTime: 1
+  entities:
+    CP14FoodPumpkinSlice: 1 
+  result: CP14SeedPumpkin
+
+- type: CP14Recipe
+  id: CP14SeedCucumber
+  craftTime: 1
+  entities:
+    CP14FoodCucumber: 1 
+  result: CP14SeedCucumber
+
+- type: CP14Recipe
+  id: CP14SeedWheat
+  craftTime: 1
+  entities:
+    CP14Wheat: 1 
+  result: CP14SeedWheat
