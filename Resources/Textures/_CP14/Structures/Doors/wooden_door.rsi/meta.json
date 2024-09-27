@@ -1,7 +1,7 @@
 {
     "version": 1,
     "license": "CLA",
-    "copyright": "By jaraten(discord)",
+    "copyright": "By jaraten(discord), mirrored by TheShuEd",
     "size": {
         "x": 64,
         "y": 96
@@ -13,6 +13,14 @@
         },
         {
             "name": "open",
+            "directions": 4
+        },
+        {
+            "name": "open_mirrored",
+            "directions": 4
+        },
+        {
+            "name": "closed_mirrored",
             "directions": 4
         }
     ]
