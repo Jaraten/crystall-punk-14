@@ -74,15 +74,18 @@ public sealed partial class StencilOverlay : Overlay
             DrawRestrictedRange(args, restrictedRangeComponent, invMatrix);
         }
 
+
+        //CP14 Overlays
+        if (_entManager.TryGetComponent<CP14WorldEdgeComponent>(mapUid, out var worldEdge))
+        {
+            DrawWorldEdge(args, worldEdge, invMatrix);
+        }
+        //CP14 Overlays end
+
         //CP14 Overlays
         if (_entManager.TryGetComponent<CP14CloudShadowsComponent>(mapUid, out var shadows))
         {
             DrawCloudShadows(args, shadows, invMatrix);
-        }
-
-        if (_entManager.TryGetComponent<CP14WorldEdgeComponent>(mapUid, out var worldEdge))
-        {
-            DrawWorldEdge(args, worldEdge, invMatrix);
         }
         //CP14 Overlays end
 
