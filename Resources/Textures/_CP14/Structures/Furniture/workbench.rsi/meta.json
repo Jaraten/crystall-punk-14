@@ -15,6 +15,15 @@
     },
     {
       "name": "cooking_table"
+    },
+    {
+      "name": "sewing_table"
+    },
+    {
+      "name": "furnace"
+    },
+    {
+      "name": "anvil"
     }
   ]
 }
